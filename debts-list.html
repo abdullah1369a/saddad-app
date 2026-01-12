@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>سدد مديونيتك - مديونياتي</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="dashboard.html" class="text-sm text-slate-500">رجوع</a>
+      <h1 class="text-sm font-semibold text-slate-800">مديونياتي</h1>
+      <span></span>
+    </div>
+  </header>
+
+  <main class="max-w-md mx-auto px-4 py-6 space-y-4">
+
+    <!-- Add new -->
+    <a href="debt-form.html"
+       class="block bg-emerald-500 text-white text-center py-3 rounded-xl text-sm font-semibold">
+      إضافة مديونية جديدة
+    </a>
+
+    <!-- Debt item -->
+    <div class="bg-white rounded-2xl shadow-sm p-4">
+      <div class="flex justify-between items-center mb-2">
+        <h2 class="text-sm font-bold text-slate-800">بنك الراجحي</h2>
+        <span class="text-xs bg-emerald-100 text-emerald-600 px-2 py-1 rounded-lg">بنك</span>
+      </div>
+
+      <p class="text-xs text-slate-500 mb-1">المبلغ الأساسي: 150,000 ريال</p>
+      <p class="text-xs text-slate-500 mb-1">الإجمالي: 200,000 ريال</p>
+      <p class="text-xs text-slate-500 mb-3">الفائدة: 50,000 ريال</p>
+
+      <div class="flex justify-between text-xs">
+        <a href="debt-edit.html" class="text-emerald-600 font-semibold">تعديل</a>
+        <a href="debt-upload.html" class="text-blue-600 font-semibold">رفع مستندات</a>
+        <button class="text-red-500 font-semibold">حذف</button>
+      </div>
+    </div>
+
+    <!-- Example second item -->
+    <div class="bg-white rounded-2xl shadow-sm p-4">
+      <div class="flex justify-between items-center mb-2">
+        <h2 class="text-sm font-bold text-slate-800">صندوق التنمية العقاري</h2>
+        <span class="text-xs bg-blue-100 text-blue-600 px-2 py-1 rounded-lg">حكومية</span>
+      </div>
+
+      <p class="text-xs text-slate-500 mb-1">المبلغ الأساسي: 300,000 ريال</p>
+      <p class="text-xs text-slate-500 mb-1">الإجمالي: 350,000 ريال</p>
+      <p class="text-xs text-slate-500 mb-3">الفائدة: 50,000 ريال</p>
+
+      <div class="flex justify-between text-xs">
+        <a href="debt-edit.html" class="text-emerald-600 font-semibold">تعديل</a>
+        <a href="debt-upload.html" class="text-blue-600 font-semibold">رفع مستندات</a>
+        <button class="text-red-500 font-semibold">حذف</button>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>

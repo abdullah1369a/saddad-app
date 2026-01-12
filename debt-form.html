@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>سدد مديونيتك - تسجيل المديونية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="dashboard.html" class="text-sm text-slate-500">رجوع</a>
+      <h1 class="text-sm font-semibold text-slate-800">تسجيل بيانات المديونية</h1>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="max-w-md mx-auto px-4 py-6 space-y-6">
+
+    <!-- Intro -->
+    <section class="text-center">
+      <h2 class="text-lg font-bold text-slate-800 mb-1">بيانات المديونية</h2>
+      <p class="text-xs text-slate-500">
+        الرجاء تعبئة بيانات المديونية بدقة لضمان مراجعتها بشكل صحيح
+      </p>
+    </section>
+
+    <!-- Form -->
+    <form class="space-y-4">
+
+      <!-- جهة التمويل -->
+      <div>
+        <label class="text-sm font-semibold text-slate-700 mb-1 block">جهة التمويل</label>
+        <select class="w-full border border-slate-200 rounded-xl px-3 py-3 text-sm focus:ring-2 focus:ring-emerald-500">
+          <option>حكومية</option>
+          <option>بنوك</option>
+          <option>تجارية</option>
+          <option>أشخاص</option>
+        </select>
+      </div>
+
+      <!-- اسم جهة التمويل -->
+      <div>
+        <label class="text-sm font-semibold text-slate-700 mb-1 block">اسم جهة التمويل</label>
+        <input type="text" placeholder="مثال: بنك الراجحي"
+          class="w-full border border-slate-200 rounded-xl px-3 py-3 text-sm focus:ring-2 focus:ring-emerald-500" />
+      </div>
+
+      <!-- مبلغ التمويل الأساسي -->
+      <div>
+        <label class="text-sm font-semibold text-slate-700 mb-1 block">مبلغ التمويل الأساسي</label>
+        <input type="number" placeholder="مثال: 150000"
+          class="w-full border border-slate-200 rounded-xl px-3 py-3 text-sm focus:ring-2 focus:ring-emerald-500" />
+      </div>
+
+      <!-- المبلغ الإجمالي -->
+      <div>
+        <label class="text-sm font-semibold text-slate-700 mb-1 block">المبلغ الإجمالي</label>
+        <input type="number" placeholder="مثال: 200000"
+          class="w-full border border-slate-200 rounded-xl px-3 py-3 text-sm focus:ring-2 focus:ring-emerald-500" />
+      </div>
+
+      <!-- مبلغ الفائدة -->
+      <div>
+        <label class="text-sm font-semibold text-slate-700 mb-1 block">مبلغ الفائدة</label>
+        <input type="number" placeholder="مثال: 50000"
+          class="w-full border border-slate-200 rounded-xl px-3 py-3 text-sm focus:ring-2 focus:ring-emerald-500" />
+      </div>
+
+      <!-- ملاحظات -->
+      <div>
+        <label class="text-sm font-semibold text-slate-700 mb-1 block">ملاحظات أخرى</label>
+        <textarea placeholder="اكتب أي تفاصيل إضافية..."
+          class="w-full border border-slate-200 rounded-xl px-3 py-3 text-sm h-24 focus:ring-2 focus:ring-emerald-500"></textarea>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit"
+        class="w-full bg-emerald-500 text-white py-3 rounded-xl text-sm font-semibold hover:bg-emerald-600">
+        حفظ البيانات
+      </button>
+
+    </form>
+
+  </main>
+
+</body>
+</html>

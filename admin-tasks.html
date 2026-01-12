@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>إدارة المهام اليومية - سدد مديونيتك</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+
+<header class="bg-white shadow">
+  <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between">
+    <h1 class="text-lg font-bold text-slate-800">إدارة المهام اليومية</h1>
+    <a href="admin-dashboard.html" class="text-sm text-slate-500">رجوع</a>
+  </div>
+</header>
+
+<main class="max-w-4xl mx-auto px-4 py-6 space-y-6">
+
+  <section class="bg-white p-4 rounded-xl shadow">
+    <h2 class="text-sm font-semibold text-slate-800 mb-3">إضافة مهمة جديدة</h2>
+
+    <input type="text" placeholder="عنوان المهمة"
+      class="w-full border border-slate-200 rounded-xl px-3 py-3 mb-3">
+
+    <input type="number" placeholder="النقاط"
+      class="w-full border border-slate-200 rounded-xl px-3 py-3 mb-3">
+
+    <button class="w-full bg-emerald-500 text-white py-3 rounded-xl text-sm font-semibold">
+      إضافة المهمة
+    </button>
+  </section>
+
+  <section class="bg-white p-4 rounded-xl shadow">
+    <h2 class="text-sm font-semibold text-slate-800 mb-3">المهام الحالية</h2>
+
+    <div class="flex justify-between py-2 border-b text-sm">
+      <span>مشاركة التطبيق — 20 نقطة</span>
+      <span class="text-xs">
+        <a href="#" class="text-blue-600">تعديل</a> |
+        <a href="#" class="text-red-500">حذف</a>
+      </span>
+    </div>
+
+    <div class="flex justify-between py-2 text-sm">
+      <span>مشاهدة فيديو — 15 نقطة</span>
+      <span class="text-xs">
+        <a href="#" class="text-blue-600">تعديل</a> |
+        <a href="#" class="text-red-500">حذف</a>
+      </span>
+    </div>
+
+  </section>
+
+</main>
+
+</body>
+</html>

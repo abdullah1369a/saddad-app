@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>سدد مديونيتك - سجل المديونيات</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 min-h-screen">
+
+<header class="bg-white shadow-sm">
+  <div class="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="dashboard.html" class="text-sm text-slate-500">رجوع</a>
+    <h1 class="text-sm font-semibold text-slate-800">سجل المديونيات</h1>
+    <span></span>
+  </div>
+</header>
+
+<main class="max-w-md mx-auto px-4 py-6">
+
+  <table class="w-full text-sm bg-white rounded-2xl shadow-sm overflow-hidden">
+    <thead class="bg-slate-100 text-slate-600">
+      <tr>
+        <th class="py-2">الجهة</th>
+        <th class="py-2">الأساسي</th>
+        <th class="py-2">الإجمالي</th>
+        <th class="py-2">الحالة</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+
+      <tr class="border-b">
+        <td class="py-2">الراجحي</td>
+        <td class="py-2">150,000</td>
+        <td class="py-2">200,000</td>
+        <td class="py-2 text-emerald-600">مكتمل</td>
+      </tr>
+
+      <tr class="border-b">
+        <td class="py-2">العقاري</td>
+        <td class="py-2">300,000</td>
+        <td class="py-2">350,000</td>
+        <td class="py-2 text-yellow-500">قيد المراجعة</td>
+      </tr>
+
+      <tr>
+        <td class="py-2">تمويل شخصي</td>
+        <td class="py-2">50,000</td>
+        <td class="py-2">65,000</td>
+        <td class="py-2 text-red-500">مرفوض</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</main>
+
+</body>
+</html>
